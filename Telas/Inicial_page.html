@@ -4,8 +4,8 @@
 <head>
     <title>Inicial</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="IServices.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="../javascript/IServices.js"></script>
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,31 +17,32 @@
 
 
 <body>
-    <div class="container">
-        <!--Navbar-->
-        <header id="navigation" class="fixed-top justify-content-end" style="background-color: #011E2E;">
-            <div class="container">
-                <!--Navbar-->
-                <nav class="navbar navbar-expand-lg navbar-dark bg-#011E2E">
-                    <a class="navbar-brand" href="Inicial_page.html">TrampMe</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="Cadastro-serviço.html">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Cadastro-serviço.html">Como funciona</a>
-                            </li>
-                        </ul>
-                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Acessar</button>
-                    </div>
-                </nav>
-            </div>
-        </header> <br><br><br>
+    <header id="navigation" class="fixed-top justify-content-end" style="background-color: #011E2E;">
+        <div class="container">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-#011E2E">
+                <a class="navbar-brand" href="#">TrampMe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="Inicial_page.html">Contrate um serviço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cadastro-serviço.html">Registre seu trabalho</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-primary my-2 my-sm-0" href="" type="submit">Acessar</button>
+                </div>
+            </nav>
+        </div>
+    </header><br><br><br>
+
+    <div class="container">
         <!--Cads das categorias-->
 
         <!--Botstrap Theme-->
@@ -67,23 +68,27 @@
                 <div class="col-lg-9">
 
                     <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                        <!--Grid column-->
-                        <div class="col-md-12 mb-12">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12 mb-4">
+                                <!--Card-->
+                                <div class="card card-cascade narrower">
+                                    <!--Card content-->
+                                    <div class="card-body card-body-cascade text-center">
 
-                            <!--Card-->
-                            <div class="card card-cascade narrower">
-                                <!--Card content-->
-                                <div class="card-body card-body-cascade text-center">
-                                    <!--Google map-->
-                                    <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
-                                        <iframe src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        <!--Google map-->
+                                        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+                                            <iframe src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        </div>
                                     </div>
+                                    <!--/.Card content-->
                                 </div>
-                                <!--/.Card content-->
+                                <!--/.Card-->
                             </div>
-                            <!--/.Card-->
+                            <!--Grid column-->
                         </div>
-                        <!--Grid column-->
+                        <!--Grid row-->
                     </div>
 
                     <div class="row">
@@ -108,7 +113,9 @@
                                         <div class="col-lg-auto col-sm-8 mx-auto">
                                             <div class="row text-center">
                                                 <p>Especializada em reparos de vestidos de baile e confecção de saias rodadas</p>
-                                                <button class="btn btn-outline-success rounded list-inline-item ml-3">Entrar em contato</button>
+                                                <a href="portfolio.html">
+                                                    <button class="btn btn-outline-success rounded list-inline-item ml-3">Entrar em contato</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -293,6 +300,77 @@
         </div>
         <!-- /.container -->
     </div>
+    <!-- Footer-->
+    <footer class="page-footer font-small indigo" style="background-color: #011E2E;">
+
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">TrampMe</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Quem somos?</a>
+                        </li>
+                        <li>
+                            <a href="#!">Fale conosco</a>
+                        </li>
+                        <li>
+                            <a href="#!">Vem pro TrampMe</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links 2-->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Como participar?</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Quais as vantagens do TrampMe?</a>
+                        </li>
+                        <li>
+                            <a href="#!">Coisa 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Coisa 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links dos icons -->
+                    <!-- isso aqui não está funcionando. Os ícones não aparecem-->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Social</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="fb-ic" style="color: #ffffff">
+                                <i class="fab fa-facebook-square fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="ins-ic" style="color: #ffffff">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="tw-ic" style="color: #ffffff">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </li>
+                        <!-- Acaba aqui o problema-->
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+            </div>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-copyright text-center py-3" style="color: #ffffff">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> TrampMe.com</a>
+        </div>
+    </footer>
+    <!-- Footer final-->
 </body>
 
 </html>

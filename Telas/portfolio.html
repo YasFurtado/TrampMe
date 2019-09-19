@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>TrampMe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../javascript/IServices.js"></script>
+    <script src="https://kit.fontawesome.com/10a7600da8.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <header id="navigation" class="fixed-top justify-content-end" style="background-color: #011E2E;">
+        <div class="container">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-#011E2E">
+                <a class="navbar-brand" href="#">TrampMe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Inicial_page.html">Contrate um serviço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cadastro-serviço.html">Registre seu trabalho</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-primary my-2 my-sm-0" href="" type="submit">Acessar</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header -->
+    <header class="bg-primary py-5 mb-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-12">
+                    <h1 class="display-4 text-white mt-5 mb-2">Maria Antonieta</h1>
+                    <p class="lead mb-5 text-white-50">Uma breve dedscrição dela sobre ela mesma</p>
+                    <span class="badge badge-light badge-pill">Reparos</span> <span class="badge badge-light badge-pill">Vestidos de baile</span> <span class="badge badge-light badge-pill">Saias</span>
+                    <span class="badge badge-light badge-pill">Reparos</span> <span class="badge badge-light badge-pill">Vestidos de baile</span> <span class="badge badge-light badge-pill">Saias</span>
+                    <h1 class="display-4 text-white mt-3 mb-2"> &#9733; &#9733; &#9733; &#9733; &#9734;</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!--Section: Contact v.1-->
+        <section class="section pb-5">
+
+            <!--Section heading-->
+            <h2 class="section-heading h1 pt-4">Entre em contato</h2>
+            <!--Section description-->
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-5 mb-4">
+
+                    <!--Form with header-->
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!--Header-->
+                            <div class="form-header blue accent-1">
+                                <h3><i class="fas fa-envelope"></i>Mande uma solicitação de serviço</h3>
+                            </div>
+
+                            <!--Body-->
+                            <div class="md-form">
+                                <i class="fas fa-user prefix grey-text"></i>
+                                <input type="text" id="form-name" class="form-control">
+                                <label for="form-name">Seu nome</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-envelope prefix grey-text"></i>
+                                <input type="text" id="form-email" class="form-control">
+                                <label for="form-email">Seu email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-tag prefix grey-text"></i>
+                                <input type="text" id="form-Subject" class="form-control">
+                                <label for="form-Subject">Serviço</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="form-text">Mais detalhes</label>
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <button class="btn btn-outline-primary my-2 my-sm-0">Enviar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--Form with header-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-7">
+
+                    <!--Google map-->
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <br>
+                    <!--Buttons-->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a class="btn btn-outline-primary my-2 my-sm-0"><i class="fas fa-map-marker-alt"></i></a>
+                            <p>San Francisco, CA 94126</p>
+                            <p>United States</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn btn-outline-primary my-2 my-sm-0"><i class="fas fa-phone"></i></a>
+                            <p>+ 01 234 567 89</p>
+                            <p>Mon - Fri, 8:00-22:00</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn btn-outline-primary my-2 my-sm-0"><i class="fas fa-envelope"></i></a>
+                            <p>info@gmail.com</p>
+                            <p>sale@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.1-->
+        <!-- /.row -->
+        <h2>Serviços prestados recentemente</h2>
+
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/150x50" alt="">
+                    <div class="card-body">
+                        <h4 class="card-subtitle">Muito Profissional!</h4>
+                        <p class="card-text">Uma breve descrição do serviço que ela prestou</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/300x200" alt="25">
+                    <div class="card-body">
+                        <h4 class="card-subtitle">Ótima</h4>
+                        <p class="card-text">Uma breve descrição do serviço que ela prestou</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/150x50" alt="">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Perfeita</h5>
+                        <p class="card-text">Uma breve descrição do serviço que ela prestou</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!-- Footer-->
+    <footer class="page-footer font-small indigo" style="background-color: #011E2E;">
+
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">TrampMe</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Quem somos?</a>
+                        </li>
+                        <li>
+                            <a href="#!">Fale conosco</a>
+                        </li>
+                        <li>
+                            <a href="#!">Vem pro TrampMe</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links 2-->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Como participar?</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Quais as vantagens do TrampMe?</a>
+                        </li>
+                        <li>
+                            <a href="#!">Coisa 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Coisa 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <!-- Links dos icons -->
+                    <!-- isso aqui não está funcionando. Os ícones não aparecem-->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Social</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="fb-ic" style="color: #ffffff">
+                                <i class="fab fa-facebook-square fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="ins-ic" style="color: #ffffff">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="tw-ic" style="color: #ffffff">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </li>
+                        <!-- Acaba aqui o problema-->
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+            </div>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-copyright text-center py-3" style="color: #ffffff">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> TrampMe.com</a>
+        </div>
+    </footer>
+    <!-- Footer final-->
+</body>
+
+</html>
