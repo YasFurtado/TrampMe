@@ -2,10 +2,12 @@
 <html lang="pt-br">
 
 <head>
-    <title>Inicial</title>
+    <title>TrampMe</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="IServices.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../javascript/IServices.js"></script>
+    <script src="https://kit.fontawesome.com/10a7600da8.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,7 +16,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
-
 
 <body>
     <div class="container">
@@ -30,11 +31,11 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="Cadastro-serviço.html">Serviços</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Inicial_page.html">Contrate um serviço</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Cadastro-serviço.html">Como funciona</a>
+                                <a class="nav-link" href="Cadastro-serviço.html">Registre seu trabalho</a>
                             </li>
                         </ul>
                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Acessar</button>
@@ -49,7 +50,6 @@
         <div class="container">
 
             <div class="row">
-
                 <div class="col-lg-3">
 
                     <h1 class="my-4">O que está procurando?</h1>
@@ -59,6 +59,17 @@
                         <a href="#" class="list-group-item">Marcenaria</a>
                         <a href="#" class="list-group-item">Eletricista</a>
                         <a href="#" class="list-group-item">Pintura</a>
+                    </div>
+                    <div class="card my-4">
+                        <h5 class="card-header">Search</h5>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                  <button class="btn btn-secondary" type="button">Go!</button>
+                                </span>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -108,7 +119,9 @@
                                         <div class="col-lg-auto col-sm-8 mx-auto">
                                             <div class="row text-center">
                                                 <p>Especializada em reparos de vestidos de baile e confecção de saias rodadas</p>
-                                                <button class="btn btn-outline-success rounded list-inline-item ml-3">Entrar em contato</button>
+                                                <a href="portfolio.html">
+                                                    <button class="btn btn-outline-success rounded list-inline-item ml-3">Entrar em contato</button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
