@@ -4,8 +4,10 @@
 <head>
     <title>TrampMe</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="IServices.js"></script>
+    <script src="https://kit.fontawesome.com/10a7600da8.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -49,80 +51,106 @@
 
                 <h1> Faça parte dessa equipe</h1>
                 <h2>Cadastre seu serviço e aumente a sua divulgação<br> e disponibilidade</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Nome Completo</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite seu nome completo">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Nome Completo</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite seu nome completo">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">CPF</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o número do seu CPF">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                  <option>Categoria</option>
+                                  </select>
+                                        <label for="exampleInputPassword1">Senha</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Li e aceito os termos do contrato</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <div class="col-sm-6">
+                        <img src="images/isometric.png" style="height: 500px; padding-top: 10px">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">CPF</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o número do seu CPF">
-                    </div>
-                    <div class="form-group">
-                        <select class="form-control">
-                    <option>Categoria</option>
-                    </select>
-                        <label for="exampleInputPassword1">Senha</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Li e aceito os termos do contrato</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Cadastrar</button>
-                </form>
-                <img src="images/isometric.png" style="height: 550px; padding-top: 10px">
+                </div>
             </div>
+        </div>
+        </div>
         </div>
     </section>
 
     <!-- Fim do formulário do cadastro aqui-->
 
     <!--Grid horizontal das 3 textos-->
-
+    <br>
+    <br>
     <section id="infos" style="padding-top: 40px;">
         <div class="container">
-            <div class="row">
-                <!-- <div class="col-md-12 wow bounceIn">
+            <table>
+                <div class="row">
+                    <!-- <div class="col-md-12 wow bounceIn">
       <h2 class="text-uppercase">Working Areas</h2>
     </div> -->
-                <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-                    <i class="fa fa-search"></i>
-                    <img src="..." class="card-img-top" alt="...">
-                    <p>Ao clicar em cadastre-se você <br> nos informou seus dados.<br> Criaremos um perfil para você!</p>
+                    <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                        <i class="fa fa-search fa-lg white-text mr-md-5 mr-3 fa-4x" style="margin-left: 38%"></i>
+                        <br>
+                        <br>
+                        <p style="text-align: center;margin-right: 0%">Ao clicar em cadastre-se você <br> nos informou seus dados.<br> Criaremos um perfil para você!</p>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                        <i class="fa fa-code fa-lg white-text mr-md-5 mr-3 fa-4x" style="margin-left: 38%"></i>
+                        <br>
+                        <br>
+                        <p style="text-align: center;margin-right: 0%">
+                            Configure o perfil para que<br> fique o mais parecido com você! Lembre-se que o modo como você apresenta seu trabalho é essencial para uma boa divulgação. </p>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                        <i class="fa fa-users fa-lg white-text mr-md-5 mr-3 fa-4x" style="margin-left: 38%"></i>
+                        <br>
+                        <br>
+                        <p style="text-align: center;margin-right: 0%">Agora é só aguardar as<br> solicitações de contrato para a<br> prestação de serviços</p>
+                    </div>
                 </div>
-                <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-                    <i class="fa fa-code"></i>
-                    <img src="..." class="card-img-top" alt="...">
-                    <p>
-                        Configure o perfil para que<br> fique o mais parecido com você! <br> Lembre-se que o modo como<br> você apresenta seu trabalho é<br> essencial para uma boa<br> divulgação. </p>
-                </div>
-                <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-                    <i class="fa fa-users"></i>
-                    <img src="..." class="card-img-top" alt="...">
-                    <p>Agora é só aguardar as<br> solicitações de contrato para a<br> prestação de serviços</p>
-                </div>
-            </div>
+            </table>
         </div>
     </section>
 
     <!--Inicio cards de preço do plano-->
 
     <!--Botão Finalizar-->
-    <button type="button" class="btn btn-warning"> Finalizar</button>
+    <br>
+    <br>
+    <div style="width: 190px; margin: 0 auto;">
+        <button type="button" class="btn btn-warning" style="width: 200px;height: 50px;"> Finalizar</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- Footer-->
-    <footer class="page-footer font-small indigo" style="background-color: #011E2E">
+    <footer class="page-footer font-small indigo" style="background-color: #011E2E;">
 
         <div class="container text-center text-md-left">
             <div class="row">
                 <div class="col-md-3 mx-auto">
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">TrampMe</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">TrampMe</h5>
                     <ul class="list-unstyled">
                         <li>
                             <a href="#!">Quem somos?</a>
@@ -138,7 +166,7 @@
                 <hr class="clearfix w-100 d-md-none">
                 <div class="col-md-3 mx-auto">
                     <!-- Links 2-->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Como participar?</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Como participar?</h5>
                     <ul class="list-unstyled">
                         <li>
                             <a href="#!">Quais as vantagens do TrampMe?</a>
@@ -155,20 +183,22 @@
                 <div class="col-md-3 mx-auto">
                     <!-- Links dos icons -->
                     <!-- isso aqui não está funcionando. Os ícones não aparecem-->
-                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social</h5>
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff">Social</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="fb-ic">
-                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            <a class="fb-ic" style="color: #ffffff">
+                                <i class="fab fa-facebook-square fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                             </a>
                         </li>
+                        <br>
                         <li>
-                            <a class="ins-ic">
+                            <a class="ins-ic" style="color: #ffffff">
                                 <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                             </a>
                         </li>
+                        <br>
                         <li>
-                            <a class="tw-ic">
+                            <a class="tw-ic" style="color: #ffffff">
                                 <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                             </a>
                         </li>
@@ -179,7 +209,7 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <div class="footer-copyright text-center py-3" style="color: #ffffff">© 2019 Copyright:
             <a href="https://mdbootstrap.com/education/bootstrap/"> TrampMe.com</a>
         </div>
     </footer>
