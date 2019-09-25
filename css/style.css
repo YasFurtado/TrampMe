@@ -191,3 +191,23 @@ section.pricing {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .img1{
+    max-width:120px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 28%;
+  }
+  .search2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .wrap2{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
