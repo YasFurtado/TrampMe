@@ -10,172 +10,207 @@
     <script src="https://kit.fontawesome.com/10a7600da8.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title>TrampMe</title>
 </head>
 
 <body>
-        <header id="navigation" class="fixed-top justify-content-end" style="background-color: #011E2E;">
-                <div class="container">
-                    <!--Navbar-->
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-#011E2E">
-                        <a class="navbar-brand" href="Inicial_page.html">
-                            <img src="../images/Logo.png" style="width: 120px; height: 45px; margin: 0%;">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation">
+    <header id="navigation" class="fixed-top justify-content-end" style="background-color: #011E2E;">
+        <div class="container">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-#011E2E">
+                <a class="navbar-brand" href="Inicial.html">
+                    <img src="../images/Logo.png" style="width: 120px; height: 45px; margin: 0%;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-        
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Serviços.html">Serviços</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Cadastro-serviço.html">Como funciona</a>
-                                </li>
-                        <li>
-                                <a href="Cadastro-serviço.html" class="btn btn-outline-light" style="position: absolute; left: 70%;">Cadastre Seu trabalho</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Serviços.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Como funciona</a>
                         </li>
                         <li>
-                                <a href="Login.html" class="btn btn-outline-primary" style="position: absolute; left: 90%;">Entrar</a>
+                            <a href="Cadastro-serviço.html" class="btn btn-outline-light" style="position: absolute; left: 70%;">Cadastre Seu trabalho</a>
                         </li>
-                            </ul>
-                        </div>
-                    </nav>
+                        <li>
+                            <a href="Login.html" class="btn btn-outline-primary" style="position: absolute; left: 90%;">Entrar</a>
+                        </li>
+                    </ul>
                 </div>
-            </header>
+            </nav>
+        </div>
+    </header>
     <br><br>
-    <div style="width: 100%; height: 450px; background-image: url(../images/fundo-1.png)">
+
+    <div class="topInicial">
         <div class="wrap">
-                <div class="search">
-                   <input type="text" class="searchTerm" placeholder="O que está procurando?">
-                   <button type="submit" class="searchButton">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="O que está procurando?">
+                <button type="submit" class="searchButton">
                      <i class="fa fa-search"></i>
                   </button>
-                </div>
-             </div>
+            </div>
+        </div>
         <div style="color:white; text-align: end;padding-top: 10%; padding-right: 2%">
             <h2 style="color:white;">Precisando de um serviço?</h2>
             <p>Encontre o profissional ideal para o serviço que procura.<br> acesso a todas as informações que necessita sobre <br>os profissionais próximos a você.</p>
         </div>
     </div>
-    <table style="margin-left: 7%;">
-        <tr>
-            <h4 style='text-align: center;'>Categorias em alta</h4>
-        </tr>
+
+    <div class="container">
+        <h4 style='text-align: center;'>Categorias em alta</h4>
         <br>
-        <tr>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/ferramentas.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+        <div class="row">
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/ferramentas.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Ferramentas</h5>
+                    </div>
                 </div>
             </div>
-            </td>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/fotografo.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/fotografo.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Fotografia</h5>
+                    </div>
                 </div>
             </div>
-        </td>
-        <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/pintor.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/pintor.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Pintura</h5>
+                    </div>
                 </div>
             </div>
-        </td>
-        <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/kids.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/kids.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Babá</h5>
+                    </div>
                 </div>
             </div>
-        </td>
-        </tr>
-        <tr>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/musica.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/musica.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Música</h5>
+                    </div>
                 </div>
             </div>
-            </td>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card"style="width: 14rem;">
-                <img src="../images/costura.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/costura.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Costura</h5>
+                    </div>
                 </div>
             </div>
-            </td>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/web.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
-                <div class="card-body">
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/web.jpg" class="card-img-top" alt="..." style='height: 12rem;'>
+                    <div class="card-body">
                         <h5 style="text-align: center">Desenvolvimento Web</h5>
+                    </div>
                 </div>
             </div>
-            </td>
-            <td style="padding: 0% 2% 0% 2%">
-            <div class="card" style="width: 14rem;">
-                <img src="../images/design.jpg" class="card-img-top" style='height: 12rem;'>
-                <div class="card-body">
-                    <h5 style="text-align: center">Design</h5>
+            <!--Fim Card-->
+
+            <!--Card-->
+            <div class="col-lg-3 col-md-4 mb-3">
+                <div class="card">
+                    <img src="../images/design.jpg" class="card-img-top" style='height: 12rem;'>
+                    <div class="card-body">
+                        <h5 style="text-align: center">Design</h5>
+                    </div>
                 </div>
             </div>
-            </td>
-        </tr>
-    </table>
-    <div>
-        <br>
-        <h2 style="text-align: center">Como funciona?</h2>
-        <br>
-        <table style="margin: 0% 7% 0% 7%">
-            <tr style="text-align: center">
-                <td><p style="margin-left: 7%">BUSQUE</p></td>
-                <td><p style="margin-left: 10%">CATÁLOGO</p></td>
-                <td><p style="margin-left: 7%">CONTRATO</p></td>
-                <td><p>ACEITAR</p></td>
-                <td><p style="margin-left: 7%">AVALIE</p></td>
-            </tr>
+            <!--Fim Card-->
+
+        </div>
+        <!-- /.row -->
+        <div>
+            <br>
+            <h2 style="text-align: center">Como funciona?</h2>
+            <br>
+            <div class="row">
+                <div class="col-lg-2.5 col-md-3 mb-2.5" style="text-align: center">
+                    <p>BUSQUE</p>
+                    <img src="../images/people.png" class="img1" style="margin-right: 100px">
+                    <p> Busque o profissional ideal para você estabelecendo filtros de busca.</p>
+                </div>
+                <div class="col-lg-2.5 col-md-3 mb-2.5" style="text-align: center">
+                    <p>CATÁLOGO</p>
+                    <img src="../images/catalogo.png" class="img1" style="margin-right: 100px">
+                    <P>Observe o portfolio do profissional para ver se est’a de acordo com o que busca.</P>
+                </div>
+                <div class="col-lg-2.5 col-md-3 mb-2.5" style="text-align: center">
+                    <p>CONTRATO</p>
+                    <img src="../images/comente.png" class="img1" style="margin-right: 100px">
+                    <P> Entre em contato com o profissional pelo site para estabelecer maiores detalhes sobre o trabalho.</P>
+                </div>
+                <div class="col-lg-2.5 col-md-3 mb-2.5" style="text-align: center">
+                    <p>ACEITAR</p>
+                    <img src="../images/confirma.png" class="img1" style="margin-right: 100px">
+                    <P> Pode realizar o pagamento antes ou depois do trabalho, diretamente como profissional ou pelo site de acordo com o que necessitar</P>
+                </div>
+                <div class="col-lg-2.5 col-md-3 mb-2.5" style="text-align: center">
+                    <p>AVALIE</p>
+                    <img src="../images/avalia.png" class="img1" style="margin-right: 100px">
+                    <P> Publique seu depoimento na página do profissional e avalie otrabalho para contribuir para futuros clientes</P>
+                </div>
+            </div>
             <tr>
-                <td><img src="../images/people.png" class="img1" style="margin-right: 100px"></td>
-                <td><img src="../images/catalogo.png" class="img1" style="margin-right: 100px"></td>
-                <td><img src="../images/comente.png" class="img1" style="margin-right: 100px"></td>
-                <td><img src="../images/confirma.png" class="img1" style="margin-right: 100px"></td>
-                <td><img src="../images/avalia.png" class="img1" style="margin-right: 100px"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr style="text-align: center;">
-                <td style="font-size:14px; padding: 0% 1% 0% 1%">Busque o profissional ideal para você estabelecendo filtros de busca.</td>
-                <td style="font-size:14px">Observe o portfolio do profissional para ver se est’a de acordo com o que busca .</td>
-                <td style="font-size:14px; padding: 0% 1% 0% 1% ">Entre em contato com o profissional pelo site para estabelecer maiores detalhes sobre o trabalho</td>
-                <td style="font-size:14px; padding: 0% 1% 0% 1%">Pode realizar o pagamento antes ou depois do trabalho, diretamente como profissional ou pelo site de acordo com o que necessitar</td>
-                <td style="font-size:14px; padding: 0% 1% 0% 1%">Publique seu depoimento na página do profissional e avalie otrabalho para contribuir para futuros clientes</td>
+                <td style="font-size:14px; padding: 0% 1% 0% 1%"></td>
+                <td style="font-size:14px"></td>
+                <td style="font-size:14px; padding: 0% 1% 0% 1% "></td>
+                <td style="font-size:14px; padding: 0% 1% 0% 1%"></td>
+                <td style="font-size:14px; padding: 0% 1% 0% 1%"></td>
             </tr>
-        </table>
+            </table>
+        </div>
+        <br><br><br><br>
     </div>
-    <br><br><br><br>
+    </div>
     <footer class="page-footer font-small indigo" style="background-color: #011E2E;">
 
         <div class="container text-center text-md-left">
@@ -222,11 +257,11 @@
                                 <i class="fab fa-facebook-square fa-lg white-text mr-md-3 mr-3 fa-2x"></i>
                             </a>
                             <a class="ins-ic" style="color: #ffffff">
-                                    <i class="fab fa-instagram fa-lg white-text mr-md-3 mr-3 fa-2x"> </i>
-                                </a>
-                                <a class="tw-ic" style="color: #ffffff">
-                                        <i class="fab fa-twitter fa-lg white-text mr-md-3 mr-3 fa-2x"> </i>
-                                    </a>
+                                <i class="fab fa-instagram fa-lg white-text mr-md-3 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="tw-ic" style="color: #ffffff">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-3 mr-3 fa-2x"> </i>
+                            </a>
                         </li>
                     </ul>
                 </div>
